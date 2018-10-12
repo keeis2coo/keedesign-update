@@ -57,7 +57,7 @@
             <hr class="light my-4">
             <p class="text-faded mb-4"><p>Kenita Jarrett, pronounced like Kenitha, but since most find that to hard I also go by <b>Kee</b> lol. I’m a front-end web developer (working on becoming a Full Stack Developer) with just over two years of professional experience (over five freelancing) in the web industry. </p>
             <p>In the mist of becoming a developer (obviously you need to have an eye for design) I began to design posters, flyers, and tshirs, now I also screen print t-shirts creating a compay called F.I.T. Prints with my wonderful sister.
-                <br><br>I also love working with kids, which I have been doing for the past eight years!</p>
+                <br><br>I also love working with kids, which I have been doing for the past eight years! I'm just adding this as a test.</p>
                 <p>You can view some of my screen prints here!</p>
             <a class="btn btn-light btn-xl js-scroll-trigger" href="#portfolio">See Print Work!</a>
           </div>
