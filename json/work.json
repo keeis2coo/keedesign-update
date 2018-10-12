@@ -1,0 +1,33 @@
+[
+
+  {
+    "site": "Pacificlifestylehomes.com",
+    "image": "images\/pacific-lifestyle-logo.png",
+    "description": ["Complete Redesign layout (mobile version)", "Made layout responsive", "Used Angular to pull in images based on community", "Created new photo gallery"],
+    "webAddress": "http:\/\/www.pacificlifestylehomes.com\/seven-wells-estates"
+  },
+  {
+    "site": "Hhhomes.com",
+    "image": "images\/hhh-logo.jpg",
+    "description": ["Complete redesign for floor plans layout", "Made layout responsive", "Used Angular to pull in images based on homes and community", "Created new filter and sort"],
+    "webAddress": "https:\/\/www.hhhomes.com\/plans"
+  },
+  {
+    "site": "Antareshomes.com",
+    "image": "images\/antares-logo.svg",
+    "description": ["Redesign layout", "Created new photo gallery"],
+    "webAddress": "http:\/\/www.antareshomes.com\/about-us\/photos"
+  },
+  {
+    "site": "Jaymarchomes.com",
+    "image": "images\/jaymarch-logo.png",
+    "description": [
+      "Redesign home page layout",
+      "Redesigned main menu",
+      "Video and map placement",
+      "Added pages and regular site maintenance"
+    ],
+    "webAddress": "http:\/\/www.pacificlifestylehomes.com\/seven-wells-estates"
+  }
+
+]
