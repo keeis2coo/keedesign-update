@@ -6,3 +6,10 @@ portControllers.controller('portCtrl', ['$scope' , '$http',
         $scope.port = data;
       });
     }]);
+
+    portControllers.controller('imgCtrl', ['$scope' , '$http',
+        function($scope, $http){
+          $http.get('../json/portfolio.json').success(function(data){
+            $scope.port = data;
+          });
+        }]);

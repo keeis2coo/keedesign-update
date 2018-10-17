@@ -38,7 +38,7 @@
             <h1 class="text-uppercase">
               <strong></strong>
             </h1>
-            <img src="images/logo-2-white.png">
+            <img src="images/logo-2.png" class="img-fluid">
             <hr>
           </div>
           <div class="col-lg-8 mx-auto">
@@ -61,7 +61,7 @@
                 <p>You can view some of my screen prints here!</p>
             <a class="btn btn-light btn-xl js-scroll-trigger" href="#portfolio">See Print Work!</a>
           </div>
-            <div class="col-md-5 cirDiv"> <img src="https://via.placeholder.com/350x350" class="img-responsive circleImg"> </div>
+            <div class="col-md-5 cirDiv"> <img src="images/me.jpg" class="img-fluid circleImg"> </div>
           </div>
         </div>
       </div>
@@ -83,7 +83,7 @@
     <section class="p-0" id="portfolio" ng-controller="portCtrl">
       <div class="container-fluid p-0">
         <div class="row no-gutters popup-gallery">
-          <div class="col-lg-4 col-sm-6 portImg" ng-repeat="portfolio in port">
+          <div class="col-lg-4 col-sm-6 portImg" ng-repeat="portfolio in port | limitTo:6">
             <a class="portfolio-box" href="images/{{portfolio.images}}">
               <img class="img-fluid" src="images/{{portfolio.images}}" alt="">
               <div class="portfolio-box-caption">

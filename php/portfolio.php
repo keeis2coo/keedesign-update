@@ -8,10 +8,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Creative - Start Bootstrap Theme</title>
-
     <!-- Bootstrap core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
 
     <!-- Custom fonts -->
     <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -23,6 +22,7 @@
 
     <!-- Custom styles -->
     <link href="../css/creative.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/gallery.css">
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.2.26/angular.min.js"></script>
 
   </head>
@@ -32,8 +32,60 @@
     <?php include('../php/menu.php'); ?>
 
 
-      <div id="screenPrints">
-      </div>
+    <div class="container gallery-container">
+
+        <h1>Portfolilo</h1>
+
+        <p class="page-description text-center"></p>
+
+        <div class="tz-gallery" ng-controller="imgCtrl">
+
+            <div class="row">
+
+                <div class="col-sm-6 col-md-4" ng-repeat="images in port | limitTo:11:0">
+                    <div class="thumbnail">{{images.test.name}}
+                        <a class="lightbox" href="../images/{{images.test.images}}">
+                            <img src="../images/{{images.images}}" alt="Park">
+                        </a>
+                        <div class="caption">
+                            <h3>{{images.name}}</h3>
+                            <p>{{images.catagory}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <h1>Portfolilo</h1>
+
+        <p class="page-description text-center"></p>
+
+        <div class="tz-gallery" ng-controller="imgCtrl">
+
+            <div class="row">
+
+                <div class="col-sm-6 col-md-4" ng-repeat="images in port | limitTo: 4:12">
+                    <div class="thumbnail">
+                        <a class="lightbox" href="../images/{{images.test2.images}}">
+                            <img src="../images/{{images.images}}" alt="Park">
+                        </a>
+                        <div class="caption">
+                            <h3>{{images.name}}</h3>
+                            <p>{{images.catagory}}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+
+
 
 
 
@@ -77,6 +129,10 @@
     <script src="../js/creative.min.js"></script>
     <script src="../js/main.js"></script>
     <script src="../js/controllers.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
 
   </body>
 

@@ -1,38 +1,24 @@
-[
-{
-  "name":"student shirt",
-  "category":"Screen Print",
-  "images":"students_shirt-thumb.jpeg"
+[{
+  "test" :
+    [
+      {"name":"student shirt", "category":"Screen Print", "images":"/portfolio/yoda-mockup.png"},
+      {"name":"student shirt", "category":"Screen Print", "images":"/portfolio/blingboss-mockup.png"},
+      {"name":"student shirt", "category":"Screen Print", "images":"/portfolio/niceforwhat-mockup.png"},
+      {"name":"student shirt", "category":"Screen Print", "images":"/portfolio/dexx-mockup.png"},
+      {"name":"student shirt", "category":"Screen Print", "images":"/portfolio/trustgod-mockup.png"},
+      {"name":"student shirt", "category":"Screen Print", "images":"/portfolio/yoy-mockup.png"},
+      {"name":"student shirt", "category":"Screen Print", "images":"/portfolio/beer-thumb.jpeg"},
+      {"name":"student shirt", "category":"Screen Print", "images":"/portfolio/cold_cracked-thumb.jpeg"},
+      {"name":"student shirt", "category":"Screen Print", "images":"/portfolio/daddys_monster-thumb.jpeg"},
+      {"name":"student shirt", "category":"Screen Print", "images":"/portfolio/dope-thumb.jpeg"},
+      {"name":"student shirt", "category":"Screen Print", "images":"/portfolio/mark_my_words-thumb.jpeg"}
+    ],
 
-},
-
-{
-  "name":"student shirt",
-  "category":"Screen Print",
-  "images":"team_shirt.jpg"
-},
-
-{
-  "name":"student shirt",
-  "category":"Screen Print",
-  "images":"20170703_105758.jpg"
-},
-
-{
-  "name":"student shirt",
-  "category":"Screen Print",
-  "images":"Screenshot_20170426-111041.jpg"
-},
-
-{
-  "name":"student shirt",
-  "category":"Screen Print",
-  "images":"dexx.jpg"
-},
-
-{
-  "name":"student shirt",
-  "category":"Screen Print",
-  "images":"yoy-thumb.jpeg"
-}
-]
+    "test2" :
+    [
+      {"name":"student shirt", "category":"Screen Print", "images":"/portfolio/lightson-2014.png"},
+      {"name":"student shirt", "category":"Screen Print", "images":"/portfolio/lights-on-2015.png"},
+      {"name":"student shirt", "category":"Screen Print", "images":"/portfolio/LO2016.png"},
+      {"name":"student shirt", "category":"Screen Print", "images":"/portfolio/yoy2017.png"}
+    ]
+}]
