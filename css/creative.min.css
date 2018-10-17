@@ -159,7 +159,7 @@ img::-moz-selection {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 56px);
-  background-image: url(../images/hero.jpg);
+  /* background-image: url(../images/hero.jpg); */
   background-position: center center;
   background-size: cover
 }
@@ -423,6 +423,9 @@ header img{
 .circleImg{
   margin:0 auto;
   border-radius:300px;
+  height:350px;
+  width:350px;
+  object-fit:cover;
 }
 
 .more{
